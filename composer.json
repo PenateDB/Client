@@ -1,7 +1,7 @@
 {
   "name": "penate/client",
   "description": "Client for key-value storage Penate",
-  "type": "project",
+  "type": "library",
   "license": "MIT",
   "authors": [
     {
@@ -12,6 +12,8 @@
     }
   ],
   "require": {
+    "php": "^7.2.0",
+    "ext-json": "*",
     "guzzlehttp/guzzle": "~6.0"
   },
   "require-dev": {

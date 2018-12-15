@@ -5,7 +5,7 @@ Simple client for working with PenadeDB using Guzzle
 ## Installation
 
 ```bash
-$ composer require ...
+$ composer require penate/client
 ```
 
 
