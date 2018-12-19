@@ -28,7 +28,7 @@ $penate->decrement('code');    // 100
 $penate->setItem('val1', 10);
 $penate->setItem('val2', 20);
 
-$penate->getItem(['val1', 'val2']); // [10,20]
+$penate->getItems(['val1', 'val2']); // [10,20]
 ```
 
 You can also set temporary values.
@@ -36,9 +36,9 @@ You can also set temporary values.
 ```php
 $penate->setItem('temporaryValue', 'Hello', 1);
 
-$client->getItem('temporaryValue'); // 100
+$penate->getItem('temporaryValue'); // 100
 
 sleep(120); // after 2 minutes
 
-$client->getItem('temporaryValue'); // null
+$penate->getItem('temporaryValue'); // null
 ```
