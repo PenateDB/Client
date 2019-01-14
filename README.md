@@ -36,7 +36,7 @@ You can also set temporary values.
 ```php
 $penate->setItem('temporaryValue', 'Hello', 1);
 
-$penate->getItem('temporaryValue'); // 100
+$penate->getItem('temporaryValue'); // Hello
 
 sleep(120); // after 2 minutes
 
